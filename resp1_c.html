@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dias natal</title>
+</head>
+<body>
+    <script>
+        const now = new Date()
+        const month = now.getMonth() + 1
+        const day = now.getDate()
+
+        const isChristmas = month === 12 && day === 25
+
+        if(!isChristmas){
+            return console.log("Hoje não é Natal")
+
+        }
+        console.log("Feliz Natal!!!")
+    </script>
+    
+</body>
+</html>
