@@ -4,21 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dias natal</title>
+    <title>Calculo de Desconto</title>
 </head>
 <body>
     <script>
-        const now = new Date()
-        const month = now.getMonth() + 1
-        const day = now.getDate()
-
-        const isChristmas = month === 12 && day === 25
-
-        if(!isChristmas){
-            return console.log("Hoje não é Natal")
-
-        }
-        console.log("Feliz Natal!!!")
+        const produto = Number(prompt("Digite o valor dos produto: "))
+        const avista = produto - (produto * 10) / 100
+        alert(`Valor do seu produto: R$ ${produto.toFixed(2)} \n Valor com desconto: R$ ${avista.toFixed(2)}`)
     </script>
     
 </body>
