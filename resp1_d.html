@@ -5,28 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        dl{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: bold;
-            background-color: lightgray;
-            padding: 10px;
-            width: 180px;
-            margin: 10px;
-        }
-    </style>
+    
 </head>
 <body>
-    <h2>Minha lista</h2>
-    <dl>
-        <dt>Linguagens de Programação</dt>
-        <dd>Python</dd>
-        <dd>Java</dd>
-        <dd>Lua</dd>
-        <dd>PHP</dd>
-        <dd>Javascript</dd>
-    
-    </dl>
+    <script>
+        let nota1 = Number(prompt("Digite a primeira nota:"))
+        var nota2 = Number(prompt("Digite a segunda nota:"))
+        let media = (nota1 + nota2)/2
+        alert(`A média é: ${media.toFixed(1)}`)
+    </script>
     
 </body>
 </html>

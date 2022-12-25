@@ -10,7 +10,8 @@
     <script>
         const produto = Number(prompt("Digite o valor dos produto: "))
         const avista = produto - (produto * 10) / 100
-        alert(`Valor do seu produto: R$ ${produto.toFixed(2)} \n Valor com desconto: R$ ${avista.toFixed(2)}`)
+        const parcelado = produto / 3
+        alert(`Valor do seu produto: R$ ${produto.toFixed(2)} \n Valor com desconto: R$ ${avista.toFixed(2)} \n OU parcelado de 3x de R$ ${parcelado.toFixed(2)}`)
     </script>
     
 </body>
