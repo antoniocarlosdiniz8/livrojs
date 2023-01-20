@@ -1,18 +1,21 @@
 const frm = document.querySelector("form")
-const resp1 = document.querySelector("h2")
-const resp2 = document.querySelector("h3")
+const resp1 = document.querySelector(".mostrar")
+//const resp2 = document.querySelector("h3")
 
 frm.addEventListener("submit", (e) =>{
    // const produto = frm.iremedio.value
-    const valor = Number(frm.ipreco.value)
-    
+    const nome = frm.iremedio.value
 
 
+
+    resp1.innerText = `o nome é ${nome}`
+
     
-   
 
     e.preventDefault()
-    resp2.innerText = valor
+    
+    
     
 })
+
 //resp1.innerText = `O valor do produto é: ${produto}`
