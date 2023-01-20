@@ -2,7 +2,11 @@ const frm = document.querySelector("form")
 const resp1 = document.querySelector(".mostrar")
 //const resp2 = document.querySelector("h3")
 
-frm.addEventListener("submit", (e) =>{
+function verificar(){
+    alert("Deu Certo!!!")
+}
+
+/*frm.addEventListener("submit", (e) =>{
    // const produto = frm.iremedio.value
     const nome = frm.iremedio.value
 
@@ -16,6 +20,6 @@ frm.addEventListener("submit", (e) =>{
     
     
     
-})
+})*/
 
 //resp1.innerText = `O valor do produto é: ${produto}`
